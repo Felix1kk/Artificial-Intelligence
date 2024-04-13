@@ -114,9 +114,4 @@ model=genai.GenerativeModel('gemini-pro-vision')
 # 
 #
 
-!streamlit run app.py &>/content/logs.txt & npx localtunnel --port 8501
-
-!npx localtunnel --port 8501
-
-!wget -q -O - https://loca.lt/mytunnelpassword
 

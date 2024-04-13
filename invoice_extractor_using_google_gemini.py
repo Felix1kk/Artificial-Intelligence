@@ -97,7 +97,7 @@ model=genai.GenerativeModel('gemini-pro-vision')
 #   st.subheader("The Response is")
 #   st.write(response)
 #
- streamlit run app.py
+# streamlit run app.py
 # 
 # 
 # 

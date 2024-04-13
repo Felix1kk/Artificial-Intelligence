@@ -33,7 +33,7 @@ model=genai.GenerativeModel('gemini-pro-vision')
 
 
 # Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
+# 
 # import streamlit as st
 # import google.generativeai as genai
 # from PIL import Image
@@ -97,7 +97,7 @@ model=genai.GenerativeModel('gemini-pro-vision')
 #   st.subheader("The Response is")
 #   st.write(response)
 #
-# streamlit run app.py
+# streamlit run invoice_extractor_using_google_gemini.py
 # 
 # 
 # 

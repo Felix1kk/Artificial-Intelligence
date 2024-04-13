@@ -9,8 +9,6 @@ Original file is located at
 
 API_KEY='AIzaSyAyGrTbjkU6cGEVSOZB5z4E044GuNY4Z-Q'
 
-!pip install -q -U google_generativeai
-
 import pathlib
 import textwrap
 
@@ -40,9 +38,6 @@ model =genai.GenerativeModel('gemini-pro')
 
 model=genai.GenerativeModel('gemini-pro-vision')
 
-!pip install streamlit
-
-!npm install localtunnel
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py

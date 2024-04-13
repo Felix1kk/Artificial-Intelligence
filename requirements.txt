@@ -1,4 +1,3 @@
 streamlit
-python< 3.9
 google_generativeai
 

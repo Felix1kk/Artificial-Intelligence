@@ -7,6 +7,6 @@
 
 ### The Google Gemini has different models , such as chat model , vision model etc.
 
-### The model that was used in this project was the Gemini vision pro model , which processes image data and generate reliable text information regarding the image
+### The model that was used in this project was the Gemini vision pro model , which processes image data and generate reliable text information regarding the image.
 
 

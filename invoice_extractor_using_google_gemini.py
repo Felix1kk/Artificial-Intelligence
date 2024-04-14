@@ -79,7 +79,7 @@ st.header("Top G Invoice Extractor")
 input=st.text_input("input prompt: ",key="input")
 uploaded_file=st.file_uploader("choose an image...",type=["jpg","jpeg","png"])
 # 
- image=""
+image=""
 if uploaded_file is not None:
 
     image=Image.open(uploaded_file)

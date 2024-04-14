@@ -101,7 +101,7 @@ if submit:
     st.subheader("The Response is")
     st.write(response)
 
-!streamlit run app.py &>/content/logs.txt & npx localtunnel --port 8501
+streamlit run invoice_extractor_using_google_gemini.py &>/content/logs.txt & npx localtunnel --port 8501
 # 
 # 
 # 

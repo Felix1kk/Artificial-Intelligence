@@ -35,7 +35,7 @@ model=genai.GenerativeModel('gemini-pro-vision')
 # Commented out IPython magic to ensure Python compatibility.
 
 
- import streamlit as st
+import streamlit as st
  import google.generativeai as genai
  from PIL import Image
 # 

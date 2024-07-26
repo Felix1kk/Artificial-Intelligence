@@ -75,8 +75,8 @@ st.set_page_config(page_title="invoice Extractor")
  
  # Building the streamlit application
 # 
-st.header("Top G Invoice Extractor")
-input=st.text_input("input prompt: ",key="input")
+st.header("Top G Invoice Extractor 🧾")
+
 uploaded_file=st.file_uploader("choose an image...",type=["jpg","jpeg","png"])
 # 
 image=""
@@ -85,6 +85,7 @@ if uploaded_file is not None:
     image=Image.open(uploaded_file)
     st.image(image,caption="uploaded Image.",use_column_width=True)
 # 
+input=st.text_input("input prompt: ",key="input")
 submit=st.button("Tell me about the invoice")
 # 
 input_prompt="""

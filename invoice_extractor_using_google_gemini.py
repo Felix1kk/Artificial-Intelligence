@@ -19,7 +19,7 @@ genai.configure(api_key=API_KEY)
 
 # For text generation from input
 
-model =genai.GenerativeModel('gemini-pro')
+model =genai.GenerativeModel('gemini-1.5-flash')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%time
@@ -29,7 +29,7 @@ model =genai.GenerativeModel('gemini-pro')
 
 
 
-model=genai.GenerativeModel('gemini-pro-vision')
+model=genai.GenerativeModel('gemini-1.5-flash')
 
 
 # Commented out IPython magic to ensure Python compatibility.
